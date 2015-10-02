@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var myElements = ["First","Second","Third","Fourth"]
+        let myElements = ["First","Second","Third","Fourth"]
         selector.backgroundColor = UIColor(red: 247/255, green: 247/255, blue: 247/255, alpha: 1)
         selector.cursor = UIImageView(image: UIImage(named: "tabindicator"))
         
